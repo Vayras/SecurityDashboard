@@ -1,0 +1,1 @@
+import the queries in mysql form mydatabase and give DATABASE name = mydatabasenew
