@@ -17,7 +17,7 @@ if (isset($_POST['register'])) {
   $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
   // Save user information to the database
-  $conn = new mysqli('localhost', 'shivam112', 'm0mandp4p4', 'mydatabasenew');
+  $conn = new mysqli('localhost', 'YOUR_USERNAME', 'YOUR_PASSWORD', 'mydatabasenew');
   if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
   }
