@@ -3,8 +3,11 @@
 <html>
 <head>
   <title>Page Title</title>
+  <link rel="stylesheet" href="/styles/style.css">
+ 
 </head>
 <body>
+  <div>
     <form action="register.php" method="POST">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
@@ -17,9 +20,11 @@
       
         <label for="confirm_password">Confirm Password:</label>
         <input type="password" id="confirm_password" name="confirm_password" required>
-      
-        <button type="submit" name="register">Register</button>
+        
+        <input type="submit" name="register" value="Register">
+       
       </form>
+    </div>
 <script src="script.js"></script>      
 </body>
 </html>
