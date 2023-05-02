@@ -28,7 +28,7 @@ if (isset($_POST['login'])) {
   $password = $_POST['password'];
 
   // Query database for user with given username
-  $conn = new mysqli('localhost', 'shivam112', 'm0mandp4p4', 'mydatabasenew');
+  $conn = new mysqli('localhost', 'YOUR_USERNAME', 'YOUR_PASSWORD', 'mydatabasenew');
   $stmt = $conn->prepare("SELECT id, username, password FROM user_table WHERE username = ?");
   $stmt->bind_param("s", $username);
   $stmt->execute();
