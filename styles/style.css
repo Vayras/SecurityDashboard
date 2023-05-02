@@ -1,0 +1,124 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+} 
+
+body{
+    background-color: #15181D;
+    color: #ffffff;
+    
+    
+    }
+    
+    
+    hr{
+    border: 1px solid #2C303A;
+    }
+    
+    
+    header,h1 {  
+    text-align: center;
+    }
+    
+    div{
+    margin: 0 auto;
+    text-align: center;
+    /*center align the div vertically*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+    }
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    input{
+   
+      background-color: transparent;
+      outline: none;
+      height: 38px;
+      width: 317px;
+      box-shadow: none;
+      border: 1px solid #2C303A;
+      color: #ffffff;
+      padding-left: 0.2rem;
+      border-radius: 5px;
+      
+    }
+
+    input[type=submit]{
+        background: #0CA37F;
+    }
+    
+     input[type=submit]:hover{
+        background: #15181D;
+        border : 1px solid #0CA37F;
+
+    }
+
+    input:hover{
+      border : 1px solid #0CA37F;
+    }
+    
+    
+    
+    label{
+    position: absolute;
+    left: 6px;
+    top: 10px;
+    color:  #7e8394;
+    
+    transition: all 0.2s;
+    
+    }
+    
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0 30px #15181D inset !important;
+      -webkit-text-fill-color: #ffffff !important;
+    }
+    
+
+    input[type=file] {
+        height: 67px;
+        width: 311px;
+        max-width: 100%;
+        color: #fff; 
+        background: #15181D;
+        border-radius: 5px;
+        border: 1px solid #2C303A;
+        margin-bottom: 1rem;
+        
+      }
+
+      input[type=file]:hover {
+     
+        border : 1px solid #0CA37F;
+      }
+
+    input[type=file]::file-selector-button {
+        margin-top: 15px;
+        margin-left: 15%;
+        margin-right: 20px;
+        border: none;
+        background: #0CA37F;
+        
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        transition: background .2s ease-in-out;
+       
+      }
+      
+      input[type=file]::file-selector-button:hover {
+        background: #15181D;
+        border : 1px solid #0CA37F;
+
+      }
