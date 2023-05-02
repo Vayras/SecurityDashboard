@@ -40,7 +40,7 @@
          
        // Save file path to database
              // Save file path and type to database
-$conn = new mysqli('localhost', 'shivam112', 'm0mandp4p4', 'mydatabasenew');
+$conn = new mysqli('localhost', 'YOUR_USERNAME', 'YOUR_PASSWORD', 'mydatabasenew');
 $stmt = $conn->prepare("INSERT INTO files (filepath, filename, filetype) VALUES (?, ?, ?)");
 
 if(!$stmt) {
